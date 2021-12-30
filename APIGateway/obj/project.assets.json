@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v5.0": {
+      "Ocelot/13.8.1": {
+        "type": "package"
+      }
+    },
+    ".NETFramework,Version=v5.0/win7-x86": {
+      "Ocelot/13.8.1": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "Ocelot/13.8.1": {
+      "sha512": "a2ci21bAfCKQHuh7IUi0RrU55oTM2rIPjSGAw5exvfr1hE/DHm+/gcabuwIKKtD7+lNtxX05MTEBxsQx46fQXg==",
+      "type": "package",
+      "path": "ocelot/13.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Ocelot.dll",
+        "ocelot.13.8.1.nupkg.sha512",
+        "ocelot.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v5.0": [
+      "Ocelot >= 13.8.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mustf\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\mustf\\Desktop\\project\\Microservices project\\APIGateway\\APIGateway.csproj",
+      "projectName": "APIGateway",
+      "projectPath": "C:\\Users\\mustf\\Desktop\\project\\Microservices project\\APIGateway\\APIGateway.csproj",
+      "outputPath": "C:\\Users\\mustf\\Desktop\\project\\Microservices project\\APIGateway\\obj\\",
+      "projectStyle": "PackageReference",
+      "originalTargetFrameworks": [
+        "net50"
+      ],
+      "frameworks": {
+        "net50": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net50": {
+        "dependencies": {
+          "Ocelot": {
+            "target": "Package",
+            "version": "13.8.1"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}
