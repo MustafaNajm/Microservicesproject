@@ -15,7 +15,7 @@ namespace UserService.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        DatabaseContext db;
+        IDatabaseContext db;
         public UserController(IDatabaseContext db)
         {
             db = new DatabaseContext();
