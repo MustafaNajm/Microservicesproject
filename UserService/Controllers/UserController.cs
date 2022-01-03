@@ -16,7 +16,7 @@ namespace UserService.Controllers
     public class UserController : ControllerBase
     {
         DatabaseContext db;
-        public UserController()
+        public UserController(IDatabaseContext db)
         {
             db = new DatabaseContext();
         }
